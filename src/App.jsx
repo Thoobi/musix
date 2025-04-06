@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-// import { Sidebar } from "./components/Sidebar";
+import { Sidebar } from "./components/Sidebar";
 import Player from "./components/Player";
-// import Display from "./components/Display";
+import Display from "./components/Display";
 import { Routes, Route } from "react-router-dom";
 import Search from "./components/Search";
 import { PlayerContext } from "./context/PlayerContext";
