@@ -1,9 +1,9 @@
 import { createContext, useEffect, useRef, useState } from "react";
 import { songsData } from "../assets/assets";
 
-export const PlayerContext = createContext();
+const PlayerContext = createContext();
 
-const PlayerContextProvider = (props) => {
+export const PlayerContextProvider = (props) => {
   const audioRef = useRef();
   const seekBg = useRef();
   const seekBar = useRef();
@@ -33,7 +33,7 @@ const PlayerContextProvider = (props) => {
   };
 
   const playWithId = async (id) => {
-    await setTrack(songsData[id]);
+    setTrack(songsData[id]);
     await audioRef.current.play();
     setPlayStatus(true);
   };
@@ -105,4 +105,4 @@ const PlayerContextProvider = (props) => {
   );
 };
 
-export default PlayerContextProvider;
+export { PlayerContext };
