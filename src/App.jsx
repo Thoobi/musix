@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Sidebar from "./components/Sidebar";
+import { Sidebar } from "./components/Sidebar";
 import Player from "./components/Player";
 import Display from "./components/Display";
 import { Routes, Route } from "react-router-dom";
@@ -14,7 +14,7 @@ const App = () => {
       <div className="h-[90%] flex">
         <Sidebar />
         <Routes>
-          <Route path="/" element={<Display />} />
+          <Route path="/*" element={<Display />} />
           <Route path="/search" element={<Search />} />
         </Routes>
       </div>
