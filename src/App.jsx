@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Sidebar from "./components/Sidebar";
 import Player from "./components/Player";
 import Display from "./components/Display";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 import Search from "./components/Search";
 
 import { PlayerContext } from "./context/PlayerContext";

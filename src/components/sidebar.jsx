@@ -1,7 +1,5 @@
 import React from "react";
-import {} from "../assets/assets";
 import { GoHome } from "react-icons/go";
-
 import { LuLibraryBig } from "react-icons/lu";
 import { HiOutlinePlus } from "react-icons/hi2";
 import { IoIosArrowRoundForward } from "react-icons/io";

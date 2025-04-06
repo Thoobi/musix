@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-
 import { FaCirclePlay } from "react-icons/fa6";
 import { RxTrackNext } from "react-icons/rx";
 import { RxTrackPrevious } from "react-icons/rx";
