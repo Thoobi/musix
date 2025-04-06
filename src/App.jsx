@@ -20,7 +20,6 @@ const App = () => {
 
       <Routes>
         <Route path="/search" element={<Search />} />
-        {/* other routes */}
       </Routes>
     </div>
   );
