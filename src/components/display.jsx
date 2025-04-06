@@ -4,7 +4,7 @@ import DisplayHome from "./DisplayHome";
 import DisplayAlbum from "./DisplayAlbum";
 import { albumsData } from "../assets/assets";
 
-const Display = () => {
+export const Display = () => {
   const displayRef = useRef();
   const location = useLocation();
   console.log(location);
@@ -34,5 +34,3 @@ const Display = () => {
     </div>
   );
 };
-
-export default Display;

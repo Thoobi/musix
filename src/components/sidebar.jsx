@@ -5,7 +5,7 @@ import { HiOutlinePlus } from "react-icons/hi2";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 
-const Sidebar = () => {
+export const Sidebar = () => {
   const navigate = useNavigate;
   return (
     <div className="w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex">
@@ -50,5 +50,3 @@ const Sidebar = () => {
     </div>
   );
 };
-
-export { Sidebar };
